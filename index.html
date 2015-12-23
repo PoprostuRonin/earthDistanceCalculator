@@ -1,0 +1,56 @@
+
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Distance calculator</title>
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+	<!-- Our style.css -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+
+	<!-- Our JavaScript -->
+	<script type="text/javascript" src="script.js"> </script>
+
+</head>
+
+<body>
+	<div class="header">
+		<img src="earth.png"/>
+		<p class="title">Earth distance calculator</p>
+		<p class="undertitle">
+		Calculation based on Haversine formula. <br>
+		View source on <a href="https://github.	com/PoprostuRonin/earthDistanceCalculator">https://github.com/PoprostuRonin/earthDistanceCalculator</a></p>
+	</div>
+
+	<div class="window">
+		<div class="half">
+			<p>
+			<h3>First point.</h3>
+			Address: <input type="text" id="address1">
+			<button id="addressReq1">Find</button>
+			<h4>or</h4>
+			Latitude: <input type="number" id="lati1"> <br>
+			Longitude: <input type="number" id="long1"> <br> </p>
+		</div>
+
+		<div class="half">
+			<p>
+			<h3>Second point.</h3>
+			Address: <input type="text" id="address2">
+			<button id="addressReq2">Find</button>
+			<h4>or</h4>
+			Latitude: <input type="number" id="lati2"> <br>
+			Longitude: <input type="number" id="long2"> <br> </p>
+		</div>
+
+		<button id="calculate">Calculate</button>
+
+		<h3 id="result"></p>
+	</div>
+</body>
+</html>	

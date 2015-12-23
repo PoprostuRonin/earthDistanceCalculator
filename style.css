@@ -1,0 +1,72 @@
+body
+{
+	background: #000;
+	background: linear-gradient(#02232E,#000);
+    height: 100%;
+    color: #FFF;
+    font-family: 'Lato';
+}
+
+.title
+{
+	font-size: 26px;
+}
+
+.header
+{
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	position: relative;
+	top: 50px;
+}
+
+.header a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.window
+{
+	position: relative;
+	top: 30px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 400px;
+	height: 360px;
+	margin: auto;
+
+	color: #000;
+	background-color: #EEE;
+	border-radius: 15px;
+}
+
+.half
+{
+	float: left;
+	width: 50%;
+}
+
+button
+{
+	background: #FFF;
+	border-color: #666;
+	border-style: solid;
+	border-radius: 2px;
+	padding: 5px;
+	font-family: 'Lato';
+	font-size: 14px;
+	margin: 2px;
+}
+
+button#calculate
+{
+	font-size: 17px;
+}
+
+h4
+{
+	margin: 5px;
+}
