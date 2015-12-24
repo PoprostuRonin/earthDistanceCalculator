@@ -2,9 +2,12 @@ body
 {
 	background: #000;
 	background: linear-gradient(#02232E,#000);
-    height: 100%;
     color: #FFF;
     font-family: 'Lato';
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .title
@@ -39,7 +42,7 @@ body
 	margin-left: auto;
 	margin-right: auto;
 
-	color: #000;
+	color: #000;	
 	background-color: #EEE;
 	border-radius: 15px;
 }
